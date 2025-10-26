@@ -1,40 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Oconexo Blog
 
-## Getting Started
+Um blog moderno desenvolvido com Next.js durante o curso de Fundamentos do Next.js da Rocketseat. O projeto demonstra a implementação de uma landing page e blog com sistema de gerenciamento de conteúdo usando Markdown.
 
-First, run the development server:
+## Sobre o Projeto
 
+Este projeto foi desenvolvido como parte do curso de Fundamentos do Next.js, explorando os conceitos fundamentais do framework através da criação de um blog completo com:
+
+- Landing page responsiva
+- Sistema de blog com posts em Markdown
+- Gerenciamento de conteúdo com Contentlayer
+- Design system customizado
+
+## Tecnologias Utilizadas
+
+- **Next.js 16** - Framework React com Pages Router
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Estilização utilitária
+- **Contentlayer** - CMS para Markdown
+- **shadcn/ui** - Componentes de interface
+- **Lucide React** - Ícones
+
+## Funcionalidades
+
+### Landing Page
+- Hero section com call-to-action
+- Seção de recursos e benefícios
+- Depoimentos de clientes
+- Design responsivo e moderno
+
+### Blog
+- Listagem de posts com busca
+- Posts individuais com Markdown
+- Sistema de navegação
+- Cards responsivos com informações do autor
+
+## Como Executar
+
+1. Clone o repositório
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/danielgorgonha/nextjs-fundamentos-do-next
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. Execute o servidor de desenvolvimento
+```bash
+pnpm dev
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+4. Acesse [http://localhost:3000](http://localhost:3000)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── components/     # Componentes reutilizáveis
+├── templates/      # Templates de páginas
+├── pages/          # Páginas Next.js
+├── styles/         # Estilos globais
+└── lib/            # Utilitários
+```
 
-## Learn More
+## Design
 
-To learn more about Next.js, take a look at the following resources:
+O design foi baseado no [Figma da Rocketseat](https://www.figma.com/design/3rpq2Ak1WLTFLwuEJdE0jm/Landing-Page-e-Blog--Community-?node-id=0-1&p=f&t=qgjVgl2NImNa7bco-0), seguindo as melhores práticas de UX/UI para landing pages e blogs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Aprendizados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto demonstra os conceitos fundamentais do Next.js:
 
-## Deploy on Vercel
+- **Roteamento** com Pages Router
+- **Data Fetching** com Static Site Generation (SSG)
+- **Renderização** otimizada
+- **Gerenciamento de conteúdo** com Markdown
+- **Componentização** e reutilização de código
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Próximos Passos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Migração para App Router
+- Implementação de React Server Components
+- Otimizações de performance
+- Testes automatizados
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Créditos
+
+Desenvolvido durante o curso de Fundamentos do Next.js da [Rocketseat](https://rocketseat.com.br).
