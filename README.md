@@ -1,4 +1,4 @@
-# Oconexo Blog
+# Site Blog
 
 Um blog moderno desenvolvido com Next.js durante o curso de Fundamentos do Next.js da Rocketseat. O projeto demonstra a implementação de uma landing page e blog com sistema de gerenciamento de conteúdo usando Markdown.
 
